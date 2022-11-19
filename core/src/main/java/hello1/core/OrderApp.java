@@ -1,10 +1,12 @@
-package hello1.core.order;
+package hello1.core;
 
 import hello1.core.AppConfig;
 import hello1.core.member.Grade;
 import hello1.core.member.Member;
 import hello1.core.member.MemberService;
 import hello1.core.member.MemberServiceImpl;
+import hello1.core.order.Order;
+import hello1.core.order.OrderService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
